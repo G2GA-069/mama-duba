@@ -1,0 +1,1202 @@
+!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<!-- htmlaunch:enhanced:v2 -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22hsl(60%2C72%25%2C58%25)%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22hsl(90%2C72%25%2C44%25)%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22url(%23g)%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2246%22%20text-anchor%3D%22middle%22%20font-family%3D%22ui-sans-serif%2Csystem-ui%2C-apple-system%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E">
+<meta name="theme-color" content="#7b1446">
+<meta name="description" content="Mama Duba – Mode &amp; Style, Dakar | deployed with HTMLaunch">
+<link rel="canonical" href="https://G2GA-069.github.io/mama-duba/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mama Duba – Mode &amp; Style, Dakar">
+<meta property="og:title" content="Mama Duba – Mode &amp; Style, Dakar">
+<meta property="og:description" content="Mama Duba – Mode &amp; Style, Dakar | deployed with HTMLaunch">
+<meta property="og:url" content="https://G2GA-069.github.io/mama-duba/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://s.wordpress.com/mshots/v1/https%3A%2F%2FG2GA-069.github.io%2Fmama-duba%2F?w=1200&h=630">
+<meta property="og:image:alt" content="Mama Duba – Mode &amp; Style, Dakar">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mama Duba – Mode &amp; Style, Dakar">
+<meta name="twitter:description" content="Mama Duba – Mode &amp; Style, Dakar | deployed with HTMLaunch">
+<meta name="twitter:image" content="https://s.wordpress.com/mshots/v1/https%3A%2F%2FG2GA-069.github.io%2Fmama-duba%2F?w=1200&h=630">
+<meta name="twitter:image:alt" content="Mama Duba – Mode &amp; Style, Dakar">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mama Duba – Mode & Style, Dakar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Nunito:wght@400;600;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --kente-gold: #E8A415;
+    --deep-indigo: #1A1040;
+    --terracotta: #C4522A;
+    --leaf-green: #2D6A4F;
+    --cream: #FAF3E0;
+    --warm-white: #FFFDF7;
+    --bright-red: #D62828;
+    --sky: #457B9D;
+  }
+
+- { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+background: var(–warm-white);
+font-family: ‘Nunito’, sans-serif;
+color: var(–deep-indigo);
+overflow-x: hidden;
+}
+
+/* ─── KENTE PATTERN BACKGROUND ─── */
+.kente-strip {
+height: 12px;
+background: repeating-linear-gradient(
+90deg,
+var(–kente-gold) 0px, var(–kente-gold) 20px,
+var(–bright-red) 20px, var(–bright-red) 40px,
+var(–leaf-green) 40px, var(–leaf-green) 60px,
+var(–deep-indigo) 60px, var(–deep-indigo) 80px
+);
+}
+
+/* ─── NAV ─── */
+nav {
+background: var(–deep-indigo);
+padding: 0.8rem 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 0.5rem;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.nav-brand {
+font-family: ‘Dancing Script’, cursive;
+font-size: 2rem;
+color: var(–kente-gold);
+letter-spacing: 1px;
+text-shadow: 2px 2px 0 var(–terracotta);
+}
+
+.lang-switcher {
+display: flex;
+gap: 0.4rem;
+}
+
+.lang-btn {
+background: transparent;
+border: 2px solid var(–kente-gold);
+color: var(–kente-gold);
+padding: 0.25rem 0.7rem;
+border-radius: 20px;
+cursor: pointer;
+font-family: ‘Nunito’, sans-serif;
+font-weight: 800;
+font-size: 0.75rem;
+letter-spacing: 1px;
+transition: all 0.25s;
+}
+
+.lang-btn:hover, .lang-btn.active {
+background: var(–kente-gold);
+color: var(–deep-indigo);
+}
+
+/* ─── HERO ─── */
+.hero {
+background: var(–deep-indigo);
+position: relative;
+overflow: hidden;
+padding: 5rem 2rem 4rem;
+text-align: center;
+min-height: 90vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.hero::before {
+content: ‘’;
+position: absolute;
+inset: 0;
+background:
+radial-gradient(ellipse 80% 60% at 20% 50%, rgba(232,164,21,0.15) 0%, transparent 60%),
+radial-gradient(ellipse 60% 80% at 80% 40%, rgba(196,82,42,0.15) 0%, transparent 60%);
+}
+
+/* Wax-print diamond pattern overlay */
+.hero::after {
+content: ‘’;
+position: absolute;
+inset: 0;
+opacity: 0.05;
+background-image:
+repeating-linear-gradient(45deg, var(–kente-gold) 0, var(–kente-gold) 1px, transparent 0, transparent 50%),
+repeating-linear-gradient(-45deg, var(–kente-gold) 0, var(–kente-gold) 1px, transparent 0, transparent 50%);
+background-size: 30px 30px;
+}
+
+.hero-badge {
+display: inline-block;
+background: var(–terracotta);
+color: white;
+font-size: 0.7rem;
+font-weight: 800;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding: 0.4rem 1.2rem;
+border-radius: 30px;
+margin-bottom: 1.5rem;
+position: relative;
+z-index: 1;
+animation: fadeDown 0.8s ease both;
+}
+
+.hero-title {
+font-family: ‘Playfair Display’, serif;
+font-size: clamp(3.5rem, 12vw, 8rem);
+font-weight: 900;
+color: var(–kente-gold);
+line-height: 0.9;
+position: relative;
+z-index: 1;
+animation: fadeDown 0.8s 0.2s ease both;
+text-shadow: 4px 4px 0 rgba(196,82,42,0.4);
+}
+
+.hero-subtitle {
+font-family: ‘Playfair Display’, serif;
+font-style: italic;
+font-size: clamp(1.2rem, 4vw, 2rem);
+color: var(–cream);
+margin: 1rem 0 0.5rem;
+position: relative;
+z-index: 1;
+animation: fadeDown 0.8s 0.4s ease both;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+
+.hero-location {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+color: rgba(255,255,255,0.7);
+font-size: 1rem;
+font-weight: 600;
+position: relative;
+z-index: 1;
+margin-top: 0.3rem;
+animation: fadeDown 0.8s 0.6s ease both;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+
+.hero-location::before { content: ‘📍’; font-size: 1.1rem; }
+
+.hero-cta {
+margin-top: 2.5rem;
+display: flex;
+gap: 1rem;
+flex-wrap: wrap;
+justify-content: center;
+position: relative;
+z-index: 1;
+animation: fadeDown 0.8s 0.8s ease both;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+
+.btn-primary {
+background: var(–kente-gold);
+color: var(–deep-indigo);
+font-weight: 800;
+font-size: 1rem;
+padding: 0.9rem 2.2rem;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+transition: transform 0.2s, box-shadow 0.2s;
+box-shadow: 0 4px 20px rgba(232,164,21,0.4);
+letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+transform: translateY(-3px) scale(1.03);
+box-shadow: 0 8px 30px rgba(232,164,21,0.5);
+}
+
+.btn-outline {
+background: transparent;
+color: var(–cream);
+font-weight: 800;
+font-size: 1rem;
+padding: 0.9rem 2.2rem;
+border: 2px solid rgba(255,255,255,0.4);
+border-radius: 50px;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+transition: all 0.2s;
+}
+
+.btn-outline:hover {
+border-color: var(–kente-gold);
+color: var(–kente-gold);
+transform: translateY(-3px);
+}
+
+.hero-scroll {
+position: absolute;
+bottom: 2rem;
+left: 50%;
+transform: translateX(-50%);
+color: rgba(255,255,255,0.4);
+font-size: 0.75rem;
+letter-spacing: 2px;
+text-transform: uppercase;
+z-index: 1;
+animation: bounce 2s infinite;
+}
+
+/* ─── TRUST BAR ─── */
+.trust-bar {
+background: var(–kente-gold);
+padding: 1rem 2rem;
+display: flex;
+justify-content: center;
+gap: 2.5rem;
+flex-wrap: wrap;
+}
+
+.trust-item {
+display: flex;
+align-items: center;
+gap: 0.5rem;
+font-weight: 800;
+font-size: 0.9rem;
+color: var(–deep-indigo);
+letter-spacing: 0.3px;
+}
+
+.trust-item span { font-size: 1.3rem; }
+
+/* ─── SECTIONS ─── */
+section { padding: 5rem 2rem; }
+
+.section-label {
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 0.75rem;
+font-weight: 800;
+color: var(–terracotta);
+margin-bottom: 0.8rem;
+}
+
+.section-title {
+font-family: ‘Playfair Display’, serif;
+font-size: clamp(2rem, 5vw, 3.2rem);
+font-weight: 900;
+line-height: 1.1;
+color: var(–deep-indigo);
+margin-bottom: 1.2rem;
+}
+
+.section-body {
+font-size: 1.05rem;
+line-height: 1.8;
+color: #444;
+max-width: 600px;
+}
+
+/* ─── ABOUT ─── */
+.about-section {
+background: var(–cream);
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 4rem;
+align-items: center;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.about-visual {
+position: relative;
+}
+
+.about-card {
+background: var(–deep-indigo);
+border-radius: 20px;
+padding: 2.5rem;
+color: var(–cream);
+position: relative;
+overflow: hidden;
+}
+
+.about-card::before {
+content: ‘👗’;
+position: absolute;
+font-size: 8rem;
+right: -1rem;
+bottom: -1rem;
+opacity: 0.15;
+}
+
+.about-card-title {
+font-family: ‘Dancing Script’, cursive;
+font-size: 2.5rem;
+color: var(–kente-gold);
+margin-bottom: 1rem;
+}
+
+.about-stat {
+display: flex;
+gap: 1.5rem;
+margin-top: 1.5rem;
+flex-wrap: wrap;
+}
+
+.stat {
+text-align: center;
+}
+
+.stat-num {
+font-family: ‘Playfair Display’, serif;
+font-size: 2.2rem;
+font-weight: 900;
+color: var(–kente-gold);
+}
+
+.stat-label {
+font-size: 0.7rem;
+letter-spacing: 1px;
+text-transform: uppercase;
+opacity: 0.7;
+margin-top: 0.2rem;
+}
+
+/* ─── PRODUCTS ─── */
+.products-section {
+background: var(–warm-white);
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.products-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 1.5rem;
+margin-top: 3rem;
+}
+
+.product-card {
+background: white;
+border-radius: 16px;
+padding: 1.8rem 1.2rem;
+text-align: center;
+box-shadow: 0 2px 20px rgba(0,0,0,0.07);
+border: 2px solid transparent;
+transition: all 0.3s;
+cursor: default;
+}
+
+.product-card:hover {
+border-color: var(–kente-gold);
+transform: translateY(-6px);
+box-shadow: 0 10px 40px rgba(232,164,21,0.2);
+}
+
+.product-emoji {
+font-size: 2.8rem;
+display: block;
+margin-bottom: 0.8rem;
+}
+
+.product-name {
+font-weight: 800;
+font-size: 1rem;
+color: var(–deep-indigo);
+margin-bottom: 0.3rem;
+}
+
+.product-sub {
+font-size: 0.8rem;
+color: #888;
+line-height: 1.4;
+}
+
+/* ─── WHY US ─── */
+.why-section {
+background: var(–deep-indigo);
+color: white;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+
+.why-section::before {
+content: ‘’;
+position: absolute;
+inset: 0;
+background-image:
+radial-gradient(circle at 20% 50%, rgba(232,164,21,0.1) 0%, transparent 50%),
+radial-gradient(circle at 80% 50%, rgba(196,82,42,0.1) 0%, transparent 50%);
+}
+
+.why-section .section-title { color: var(–kente-gold); }
+
+.why-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 2rem;
+margin-top: 3rem;
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+z-index: 1;
+}
+
+.why-card {
+background: rgba(255,255,255,0.06);
+border: 1px solid rgba(232,164,21,0.2);
+border-radius: 16px;
+padding: 2rem 1.5rem;
+transition: all 0.3s;
+}
+
+.why-card:hover {
+background: rgba(255,255,255,0.1);
+border-color: var(–kente-gold);
+transform: translateY(-4px);
+}
+
+.why-icon { font-size: 2.5rem; margin-bottom: 1rem; display: block; }
+
+.why-title {
+font-weight: 800;
+font-size: 1.05rem;
+color: var(–kente-gold);
+margin-bottom: 0.5rem;
+}
+
+.why-text { font-size: 0.9rem; opacity: 0.75; line-height: 1.6; }
+
+/* ─── LOCATION ─── */
+.location-section {
+background: var(–cream);
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 4rem;
+align-items: center;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.location-map-placeholder {
+background: var(–deep-indigo);
+border-radius: 20px;
+padding: 3rem 2rem;
+color: white;
+text-align: center;
+position: relative;
+overflow: hidden;
+min-height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+
+.location-map-placeholder::before {
+content: ‘🗺️’;
+font-size: 5rem;
+opacity: 0.3;
+position: absolute;
+top: 1rem;
+right: 1rem;
+}
+
+.map-pin { font-size: 3rem; }
+
+.map-address {
+font-family: ‘Playfair Display’, serif;
+font-size: 1.2rem;
+color: var(–kente-gold);
+font-style: italic;
+line-height: 1.5;
+}
+
+.contact-list {
+list-style: none;
+margin-top: 1.5rem;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.contact-list li {
+display: flex;
+align-items: center;
+gap: 0.8rem;
+font-size: 1rem;
+}
+
+.contact-list .icon {
+background: var(–kente-gold);
+color: var(–deep-indigo);
+width: 38px;
+height: 38px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1rem;
+flex-shrink: 0;
+}
+
+.contact-list a {
+color: var(–deep-indigo);
+text-decoration: none;
+font-weight: 600;
+}
+
+.contact-list a:hover { color: var(–terracotta); text-decoration: underline; }
+
+/* ─── HOURS ─── */
+.hours-tag {
+display: inline-flex;
+align-items: center;
+gap: 0.5rem;
+background: var(–leaf-green);
+color: white;
+font-weight: 800;
+font-size: 0.85rem;
+padding: 0.4rem 1rem;
+border-radius: 30px;
+margin-bottom: 1rem;
+}
+
+/* ─── FOOTER ─── */
+footer {
+background: var(–deep-indigo);
+color: white;
+text-align: center;
+padding: 3rem 2rem 2rem;
+}
+
+.footer-name {
+font-family: ‘Dancing Script’, cursive;
+font-size: 3rem;
+color: var(–kente-gold);
+text-shadow: 2px 2px 0 var(–terracotta);
+margin-bottom: 0.5rem;
+}
+
+.footer-tagline {
+opacity: 0.5;
+font-size: 0.85rem;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-bottom: 2rem;
+}
+
+.footer-divider {
+height: 1px;
+background: rgba(255,255,255,0.1);
+margin: 1.5rem 0;
+}
+
+.footer-copy {
+font-size: 0.8rem;
+opacity: 0.4;
+}
+
+/* ─── MULTILANG ─── */
+[data-lang] { display: none; }
+[data-lang=“fr”] { display: block; }
+.inline-lang { display: none; }
+.inline-lang[data-lang=“fr”] { display: inline; }
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeDown {
+from { opacity: 0; transform: translateY(-20px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+0%, 100% { transform: translateX(-50%) translateY(0); }
+50% { transform: translateX(-50%) translateY(8px); }
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 768px) {
+.about-section,
+.location-section {
+grid-template-columns: 1fr;
+}
+.trust-bar { gap: 1rem; }
+nav { padding: 0.8rem 1rem; }
+}
+
+/* ─── WAX DIVIDER ─── */
+.wax-divider {
+height: 8px;
+background: repeating-linear-gradient(
+90deg,
+var(–terracotta) 0px 15px,
+var(–kente-gold) 15px 30px,
+var(–leaf-green) 30px 45px,
+var(–deep-indigo) 45px 60px,
+var(–sky) 60px 75px
+);
+opacity: 0.7;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Top strip -->
+
+<div class="kente-strip"></div>
+
+<!-- NAV -->
+
+<nav>
+  <div class="nav-brand">Mama Duba</div>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('fr')">FR</button>
+    <button class="lang-btn" onclick="setLang('wo')">WO</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('jl')">JO</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+  <div class="hero-badge">
+    <span data-lang="fr">✨ Mode Authentique de Dakar</span>
+    <span data-lang="wo">✨ Mbindim bu dëkk Dakar</span>
+    <span data-lang="en">✨ Authentic Dakar Fashion</span>
+    <span data-lang="jl">✨ Tenue bou xam-xam Dakar</span>
+  </div>
+
+  <h1 class="hero-title">Mama Duba</h1>
+
+  <p class="hero-subtitle">
+    <span data-lang="fr">La mode à portée de tous</span>
+    <span data-lang="wo">Mbindim bu fi nekk ci koom koom</span>
+    <span data-lang="en">Fashion for everyone</span>
+    <span data-lang="jl">Li ci kenn ak kenn</span>
+  </p>
+
+  <p class="hero-location">
+    <span data-lang="fr">Rue Blaise Diagne, devant l'Hôtel Saint-Louis Son — Dakar</span>
+    <span data-lang="wo">Rue Blaise Diagne, ci kanam Hôtel Saint-Louis Son — Dakar</span>
+    <span data-lang="en">Blaise Diagne Street, in front of Hôtel Saint-Louis Son — Dakar</span>
+    <span data-lang="jl">Rue Blaise Diagne, ci kanam Hôtel Saint-Louis Son — Dakar</span>
+  </p>
+
+  <div class="hero-cta">
+    <a href="#produits" class="btn-primary">
+      <span data-lang="fr">Voir les produits</span>
+      <span data-lang="wo">Xool yëkëtam yi</span>
+      <span data-lang="en">See the products</span>
+      <span data-lang="jl">Xool yëkëtam yi</span>
+    </a>
+    <a href="#contact" class="btn-outline">
+      <span data-lang="fr">Me trouver</span>
+      <span data-lang="wo">Sëtu ma</span>
+      <span data-lang="en">Find me</span>
+      <span data-lang="jl">Sëtu ma</span>
+    </a>
+  </div>
+
+  <div class="hero-scroll">▼ scroll</div>
+</section>
+
+<!-- TRUST BAR -->
+
+<div class="trust-bar">
+  <div class="trust-item">
+    <span>🌿</span>
+    <span data-lang="fr">100% Produits Locaux</span>
+    <span data-lang="wo">100% Yëkëtam yu local</span>
+    <span data-lang="en">100% Local Products</span>
+    <span data-lang="jl">100% Produits yu local</span>
+  </div>
+  <div class="trust-item">
+    <span>💰</span>
+    <span data-lang="fr">Prix de la Rue</span>
+    <span data-lang="wo">Njëg bu dëkk</span>
+    <span data-lang="en">Street Prices</span>
+    <span data-lang="jl">Prix bi dëkk</span>
+  </div>
+  <div class="trust-item">
+    <span>😊</span>
+    <span data-lang="fr">Service Chaleureux</span>
+    <span data-lang="wo">Jëf bu rafet</span>
+    <span data-lang="en">Warm & Friendly</span>
+    <span data-lang="jl">Jëf bu rafet</span>
+  </div>
+  <div class="trust-item">
+    <span>👗</span>
+    <span data-lang="fr">Hommes & Femmes</span>
+    <span data-lang="wo">Jigéen ak góor</span>
+    <span data-lang="en">Men & Women</span>
+    <span data-lang="jl">Jigéen ak góor</span>
+  </div>
+</div>
+
+<div class="wax-divider"></div>
+
+<!-- ABOUT -->
+
+<section style="background: var(--cream); padding: 5rem 2rem;">
+  <div class="about-section">
+    <div>
+      <p class="section-label">
+        <span data-lang="fr">À propos</span>
+        <span data-lang="wo">Ci soxor</span>
+        <span data-lang="en">About</span>
+        <span data-lang="jl">Ci soxor</span>
+      </p>
+      <h2 class="section-title">
+        <span data-lang="fr">Bienvenue chez Mama Duba</span>
+        <span data-lang="wo">Dalal ak jaama ci Mama Duba</span>
+        <span data-lang="en">Welcome to Mama Duba</span>
+        <span data-lang="jl">Dalal ci Mama Duba</span>
+      </h2>
+      <p class="section-body">
+        <span data-lang="fr">Je suis Mama Duba, votre vendeur de confiance au cœur de Dakar. Je sélectionne avec soin les meilleurs tissus et vêtements auprès des artisans locaux pour vous proposer une mode authentique, belle et abordable — pour hommes et femmes, tous les jours de la semaine.</span>
+        <span data-lang="wo">Maa ngi tudd Mama Duba, ci kanam Hôtel Saint-Louis Son ci Dakar. Dangay jaay yëkëtam yu rafet yu fi mën a jëndal, yu dëkk, yi baaxal jigéen ak góor.</span>
+        <span data-lang="en">I'm Mama Duba, your trusted clothing vendor in the heart of Dakar. I carefully select the finest fabrics and garments from local artisans to offer you authentic, beautiful, affordable fashion — for men and women, every day of the week.</span>
+        <span data-lang="jl">Maa ngi tudd Mama Duba, Dakar. Dangay jaay yëkëtam yu rafet yu local, yi baaxal jigéen ak góor.</span>
+      </p>
+    </div>
+    <div class="about-visual">
+      <div class="about-card">
+        <div class="about-card-title">Mama Duba</div>
+        <p style="opacity:0.8; line-height:1.7; font-size:0.95rem;">
+          <span data-lang="fr">"Ma passion, c'est vous habiller avec style, fierté et élégance — au meilleur prix possible."</span>
+          <span data-lang="wo">"Sama xol mooy sa mbindim, sa xel, sa rafet — ci njëg bu dëkk."</span>
+          <span data-lang="en">"My passion is dressing you with style, pride and elegance — at the best price possible."</span>
+          <span data-lang="jl">"Sama xol mooy sa mbindim, sa rafet — ci njëg bu dëkk."</span>
+        </p>
+        <div class="about-stat">
+          <div class="stat">
+            <div class="stat-num">100+</div>
+            <div class="stat-label">
+              <span data-lang="fr">Articles</span>
+              <span data-lang="wo">Yëkëtam</span>
+              <span data-lang="en">Items</span>
+              <span data-lang="jl">Yëkëtam</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">7j/7</div>
+            <div class="stat-label">
+              <span data-lang="fr">Ouvert</span>
+              <span data-lang="wo">Ubbi</span>
+              <span data-lang="en">Open</span>
+              <span data-lang="jl">Ubbi</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">★★★★★</div>
+            <div class="stat-label">
+              <span data-lang="fr">Qualité</span>
+              <span data-lang="wo">Baax</span>
+              <span data-lang="en">Quality</span>
+              <span data-lang="jl">Baax</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wax-divider"></div>
+
+<!-- PRODUCTS -->
+
+<section id="produits" style="padding: 5rem 2rem; background: var(--warm-white);">
+  <div class="products-section">
+    <p class="section-label">
+      <span data-lang="fr">Notre Collection</span>
+      <span data-lang="wo">Yëkëtam yi</span>
+      <span data-lang="en">Our Collection</span>
+      <span data-lang="jl">Yëkëtam yi</span>
+    </p>
+    <h2 class="section-title">
+      <span data-lang="fr">Tout ce qu'il vous faut</span>
+      <span data-lang="wo">Ñooy yëkëtam boo soxor</span>
+      <span data-lang="en">Everything you need</span>
+      <span data-lang="jl">Li bëgg nga mujj fi</span>
+    </h2>
+
+```
+<div class="products-grid">
+
+  <div class="product-card">
+    <span class="product-emoji">👟</span>
+    <div class="product-name">
+      <span data-lang="fr">Chaussures</span>
+      <span data-lang="wo">Sapat</span>
+      <span data-lang="en">Shoes</span>
+      <span data-lang="jl">Sapat</span>
+    </div>
+    <div class="product-sub">
+      <span data-lang="fr">Hommes & Femmes</span>
+      <span data-lang="wo">Góor ak jigéen</span>
+      <span data-lang="en">Men & Women</span>
+      <span data-lang="jl">Góor ak jigéen</span>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="product-emoji">👖</span>
+    <div class="product-name">
+      <span data-lang="fr">Pantalons</span>
+      <span data-lang="wo">Pantalon</span>
+      <span data-lang="en">Trousers</span>
+      <span data-lang="jl">Pantalon</span>
+    </div>
+    <div class="product-sub">
+      <span data-lang="fr">Toutes tailles</span>
+      <span data-lang="wo">Ay tailles yépp</span>
+      <span data-lang="en">All sizes</span>
+      <span data-lang="jl">Tailles yépp</span>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="product-emoji">👗</span>
+    <div class="product-name">
+      <span data-lang="fr">Robes & Jupes</span>
+      <span data-lang="wo">Robe ak jupe</span>
+      <span data-lang="en">Dresses & Skirts</span>
+      <span data-lang="jl">Robe ak jupe</span>
+    </div>
+    <div class="product-sub">
+      <span data-lang="fr">Élégance au quotidien</span>
+      <span data-lang="wo">Rafet ci bés bu nekk</span>
+      <span data-lang="en">Everyday elegance</span>
+      <span data-lang="jl">Rafet ci bés bu nekk</span>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="product-emoji">👕</span>
+    <div class="product-name">
+      <span data-lang="fr">Chemises & Hauts</span>
+      <span data-lang="wo">Chemise ak yëkëtam gu ëndël</span>
+      <span data-lang="en">Shirts & Tops</span>
+      <span data-lang="jl">Chemise ak hauts</span>
+    </div>
+    <div class="product-sub">
+      <span data-lang="fr">Style décontracté & formel</span>
+      <span data-lang="wo">Casual ak formel</span>
+      <span data-lang="en">Casual & formal styles</span>
+      <span data-lang="jl">Casual ak formel</span>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="product-emoji">🧕</span>
+    <div class="product-name">
+      <span data-lang="fr">Boubous & Robes Traditionnelles</span>
+      <span data-lang="wo">Mbubb ak yëkëtam yu dëkk</span>
+      <span data-lang="en">Boubous & Traditional Robes</span>
+      <span data-lang="jl">Mbubb ak robes traditionnelles</span>
+    </div>
+    <div class="product-sub">
+      <span data-lang="fr">Tissus wax & bazin</span>
+      <span data-lang="wo">Wax ak bazin</span>
+      <span data-lang="en">Wax prints & bazin fabrics</span>
+      <span data-lang="jl">Wax ak bazin</span>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <span class="product-emoji">🛍️</span>
+    <div class="product-name">
+      <span data-lang="fr">& Bien Plus Encore</span>
+      <span data-lang="wo">Ak dëkk dëkk...</span>
+      <span data-lang="en">& Much More</span>
+      <span data-lang="jl">Ak dëkk dëkk...</span>
+    </div>
+    <div class="product-sub">
+      <span data-lang="fr">Venez découvrir !</span>
+      <span data-lang="wo">Ñëw ko xool !</span>
+      <span data-lang="en">Come and discover!</span>
+      <span data-lang="jl">Ñëw ko xool !</span>
+    </div>
+  </div>
+
+</div>
+```
+
+  </div>
+</section>
+
+<div class="wax-divider"></div>
+
+<!-- WHY US -->
+
+<section class="why-section">
+  <p class="section-label" style="color: var(--terracotta);">
+    <span data-lang="fr">Pourquoi nous choisir</span>
+    <span data-lang="wo">Lu tax nga war a tann</span>
+    <span data-lang="en">Why choose us</span>
+    <span data-lang="jl">Lu tax nga war a tann</span>
+  </p>
+  <h2 class="section-title">
+    <span data-lang="fr">La différence Mama Duba</span>
+    <span data-lang="wo">Mama Duba — ñu ànd ci</span>
+    <span data-lang="en">The Mama Duba difference</span>
+    <span data-lang="jl">Mama Duba — ñu ànd ci</span>
+  </h2>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <span class="why-icon">🌿</span>
+      <div class="why-title">
+        <span data-lang="fr">Sourcing Local</span>
+        <span data-lang="wo">Yu fi dëkk</span>
+        <span data-lang="en">Local Sourcing</span>
+        <span data-lang="jl">Yu fi dëkk</span>
+      </div>
+      <p class="why-text">
+        <span data-lang="fr">Tous mes produits viennent directement de fournisseurs sénégalais. En achetant chez moi, vous soutenez l'économie locale.</span>
+        <span data-lang="wo">Yëkëtam yi dañu jóge ci Sénégal. Boo jënd ci màgg bi, danga wane économie bi.</span>
+        <span data-lang="en">All my products come directly from Senegalese suppliers. By buying from me, you support the local economy.</span>
+        <span data-lang="jl">Yëkëtam yi dañu jóge ci Sénégal. Boo jënd ci, danga wane économie bi.</span>
+      </p>
+    </div>
+
+```
+<div class="why-card">
+  <span class="why-icon">💬</span>
+  <div class="why-title">
+    <span data-lang="fr">Conseil Personnalisé</span>
+    <span data-lang="wo">Taax bu xam-xam</span>
+    <span data-lang="en">Personal Advice</span>
+    <span data-lang="jl">Taax bu xam-xam</span>
+  </div>
+  <p class="why-text">
+    <span data-lang="fr">Je vous aide à trouver ce qui vous va le mieux. Pas de pression, juste du plaisir de bien s'habiller.</span>
+    <span data-lang="wo">Dama la dëmël seet li baaxna la. Amul pressure, jël ko nga neex.</span>
+    <span data-lang="en">I help you find what suits you best. No pressure, just the pleasure of dressing well.</span>
+    <span data-lang="jl">Dama la dëmël seet li baaxna la. Amul pressure, jël ko nga neex.</span>
+  </p>
+</div>
+
+<div class="why-card">
+  <span class="why-icon">💰</span>
+  <div class="why-title">
+    <span data-lang="fr">Prix Honnêtes</span>
+    <span data-lang="wo">Njëg bu dëgëër</span>
+    <span data-lang="en">Fair Prices</span>
+    <span data-lang="jl">Njëg bu dëgëër</span>
+  </div>
+  <p class="why-text">
+    <span data-lang="fr">Des prix compétitifs et transparents. La mode de qualité ne doit pas coûter une fortune.</span>
+    <span data-lang="wo">Njëg yu baax ak yu dëgëër. Mbindim bu baax dafay sëdd.</span>
+    <span data-lang="en">Competitive and transparent prices. Quality fashion shouldn't cost a fortune.</span>
+    <span data-lang="jl">Njëg yu baax. Mbindim bu baax dafay sëdd.</span>
+  </p>
+</div>
+
+<div class="why-card">
+  <span class="why-icon">📍</span>
+  <div class="why-title">
+    <span data-lang="fr">Emplacement Idéal</span>
+    <span data-lang="wo">Teggin bu baax</span>
+    <span data-lang="en">Prime Location</span>
+    <span data-lang="jl">Teggin bu baax</span>
+  </div>
+  <p class="why-text">
+    <span data-lang="fr">Situé au cœur de Dakar, facilement accessible à pied depuis l'hôtel Saint-Louis Son.</span>
+    <span data-lang="wo">Ci kaw Dakar, jës ci kanam Hôtel Saint-Louis Son.</span>
+    <span data-lang="en">Located in the heart of Dakar, easily accessible on foot from Hôtel Saint-Louis Son.</span>
+    <span data-lang="jl">Ci kaw Dakar, jës ci kanam Hôtel Saint-Louis Son.</span>
+  </p>
+</div>
+```
+
+  </div>
+</section>
+
+<div class="wax-divider"></div>
+
+<!-- CONTACT / LOCATION -->
+
+<section id="contact" style="background: var(--cream); padding: 5rem 2rem;">
+  <div class="location-section">
+    <div>
+      <p class="section-label">
+        <span data-lang="fr">Venir me voir</span>
+        <span data-lang="wo">Ñëw ma gis</span>
+        <span data-lang="en">Come and see me</span>
+        <span data-lang="jl">Ñëw ma gis</span>
+      </p>
+      <h2 class="section-title">
+        <span data-lang="fr">Où me trouver</span>
+        <span data-lang="wo">Fi lañu ma woon</span>
+        <span data-lang="en">Where to find me</span>
+        <span data-lang="jl">Fi lañu ma woon</span>
+      </h2>
+
+```
+  <div class="hours-tag">
+    🕗
+    <span data-lang="fr">Ouvert 7j/7 · 8h – 21h</span>
+    <span data-lang="wo">Ubbi fan yu 7 · 8h – 21h</span>
+    <span data-lang="en">Open 7 days · 8am – 9pm</span>
+    <span data-lang="jl">Ubbi fan 7 · 8h – 21h</span>
+  </div>
+
+  <ul class="contact-list">
+    <li>
+      <div class="icon">📍</div>
+      <div>
+        <strong>
+          <span data-lang="fr">Rue Blaise Diagne, devant l'Hôtel Saint-Louis Son</span>
+          <span data-lang="wo">Rue Blaise Diagne, ci kanam Hôtel Saint-Louis Son</span>
+          <span data-lang="en">Blaise Diagne Street, in front of Hôtel Saint-Louis Son</span>
+          <span data-lang="jl">Rue Blaise Diagne, ci kanam Hôtel Saint-Louis Son</span>
+        </strong><br>
+        <span style="opacity:0.6; font-size:0.85rem;">Dakar, Sénégal</span>
+      </div>
+    </li>
+    <li>
+      <div class="icon">📞</div>
+      <div>
+        <a href="tel:+221771234567">+221 77 123 45 67</a><br>
+        <span style="opacity:0.5; font-size:0.8rem;">
+          <span data-lang="fr">(numéro temporaire)</span>
+          <span data-lang="wo">(nimero bu soxor)</span>
+          <span data-lang="en">(temporary number)</span>
+          <span data-lang="jl">(nimero bu soxor)</span>
+        </span>
+      </div>
+    </li>
+    <li>
+      <div class="icon">✉️</div>
+      <div>
+        <a href="mailto:mama.duba.dakar@gmail.com">mama.duba.dakar@gmail.com</a><br>
+        <span style="opacity:0.5; font-size:0.8rem;">
+          <span data-lang="fr">(adresse temporaire)</span>
+          <span data-lang="wo">(adresse bu soxor)</span>
+          <span data-lang="en">(temporary address)</span>
+          <span data-lang="jl">(adresse bu soxor)</span>
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="location-map-placeholder">
+  <div class="map-pin">📍</div>
+  <div class="map-address">
+    Hôtel Saint-Louis Son<br>
+    Rue Blaise Diagne<br>
+    Dakar, Sénégal
+  </div>
+  <p style="opacity:0.5; font-size:0.8rem; margin-top:0.5rem;">
+    <span data-lang="fr">Je suis juste devant !</span>
+    <span data-lang="wo">Dama nekk ci kanam !</span>
+    <span data-lang="en">I'm right out front!</span>
+    <span data-lang="jl">Dama nekk ci kanam !</span>
+  </p>
+</div>
+```
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<div class="kente-strip"></div>
+<footer>
+  <div class="footer-name">Mama Duba</div>
+  <div class="footer-tagline">
+    <span data-lang="fr">Mode · Style · Authenticité · Dakar</span>
+    <span data-lang="wo">Mbindim · Rafet · Dëkk · Dakar</span>
+    <span data-lang="en">Fashion · Style · Authenticity · Dakar</span>
+    <span data-lang="jl">Mbindim · Rafet · Dëkk · Dakar</span>
+  </div>
+  <div class="footer-divider"></div>
+  <div class="footer-copy">
+    © 2025 Mama Duba — Dakar, Sénégal
+  </div>
+</footer>
+
+<script>
+  const LANGS = ['fr','wo','en','jl'];
+  let currentLang = 'fr';
+
+  function setLang(lang) {
+    currentLang = lang;
+
+    // Toggle block elements
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+    });
+
+    // Inline elements
+    document.querySelectorAll('.inline-lang').forEach(el => {
+      el.style.display = el.getAttribute('data-lang') === lang ? 'inline' : 'none';
+    });
+
+    // Update nav buttons
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.remove('active');
+    });
+
+    const map = {fr:0, wo:1, en:2, jl:3};
+    document.querySelectorAll('.lang-btn')[map[lang]].classList.add('active');
+
+    // html lang attr
+    document.documentElement.lang = lang;
+  }
+
+  // Init
+  setLang('fr');
+
+  // Scroll reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.product-card, .why-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease, border-color 0.3s, box-shadow 0.3s';
+    observer.observe(el);
+  });
+</script>
+
+</body>
+</html>
